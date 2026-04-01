@@ -10,7 +10,7 @@ This is an example dataset created by OpenAI.
 
 ## Data Cleaning
 The original table was "SalesTable.csv" which was controlled for data quality through PowerQuery. 
-I checked for format issues and outliers.
+I checked for format issues and outliers and asked the author of the example dataset how the data should be cleaned.
 
 Fixes made:
 1) CustomerID: 
