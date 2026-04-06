@@ -29,4 +29,24 @@ I checked if this is caused by the cost of producing these products or by the di
 <img width="512" height="123" alt="image" src="https://github.com/user-attachments/assets/1b243b4e-8eb4-4803-92a2-ba6146cc3312" />
 
 ## Recommendations
-Based on the analysis, it is recommended to look over the pricing model as products that have an higher cost of producing are being sold at the same price as products with a lower cost of producing.
+Based on the analysis, it is recommended to look over the pricing model as products that have an higher cost of producing are being sold at the same price as products with a lower cost of producing.  
+
+# Employee Report
+
+## Problem Statement
+HR department wants an overview of active and left employees over time and results of the satisfaction survey. 
+
+## Plan
+I will create a Power BI report to give this overview. 
+
+## Data
+HR department gave me two files: 
+- "Employee_Satisfaction_Survey.xlsx"
+- "HR_Dataset.CSV"
+
+### Data Cleaning
+I checked data for uniqueness, formats and outliers through PowerQuery. 
+Survey dataset didn't have a unique key column. I created a new column "AnswerKey" which combined "Question Round" and "Answer ID".  
+In HR dataset, I removed columns with personal data: "First Name", "Last Name" and "Email". Also removed the column "Employment Status" as the data in that column was not up to date according to the HR department.  
+Column "Salary" was changed to Decimal Number format.
+
