@@ -1,0 +1,4 @@
+-- Analyze cafe sales
+-- 1.1. How many and in which sum products have been sold? 
+
+-- 1.2. What is total spent by location?
